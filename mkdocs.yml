@@ -1,0 +1,10 @@
+site_name: "bip-reference-person"
+site_description: "Allows a BIP consumer to test out various supported API patterns"
+site_addon: "n/a"
+
+nav:
+  - Introduction: index.md
+  - Other: other.md
+
+plugins:
+  - techdocs-core

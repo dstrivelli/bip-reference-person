@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: bip-reference-person-api
+  description: "Allows a BIP consumer to test out various supported API patterns"
+spec:
+  type: openapi
+  lifecycle: development
+  owner: "applications"
+  definition:
+    $text: https://github.com/dstrivelli/bip-reference-person/blob/master/openapi.yaml

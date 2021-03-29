@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "bip-reference-person"
+  description: "Allows a BIP consumer to test out various supported API patterns"
+  annotations:
+    github.com/project-slug: dstrivelli/bip-reference-person
+    backstage.io/techdocs-ref: url:https://github.com/dstrivelli/bip-reference-person
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "applications"
+  providesApis:
+    - bip-reference-person-api
