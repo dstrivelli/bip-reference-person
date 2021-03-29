@@ -3,8 +3,7 @@ site_description: "Allows a BIP consumer to test out various supported API patte
 site_addon: "n/a"
 
 nav:
-  - Introduction: index.md
-  - Other: other.md
+  - Overview: index.md
 
 plugins:
   - techdocs-core
