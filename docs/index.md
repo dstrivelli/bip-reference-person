@@ -1,17 +1,26 @@
-## bip-reference-person
+# Reference Person
 
 Allows a BIP consumer to test out various supported API patterns
 
-## Table
+## BIP Reference Person API
+BRP provides samples of BIP API patterns.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+## Overview
+This is a suite of projects to demonstrate various patterns required to deploy and run spring boot application and spring cloud services on the BIP Platform.
+Documentation is generated using OpenAPI Specification version 3.0.
 
+## Available Environments
+### Sbx
+https://blue-int.sbx8.bip.va.gov
+https://blue-sbx.sbx8.bip.va.gov
+https://blue-test.sbx8.bip.va.gov
 
-## Task List
+### Development
+https://blue.dev8.bip.va.gov
+https://bip-reference-person.blue-int.dev8.bip.va.gov
+https://bip-reference-person.blue-test.dev8.bip.va.gov
 
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+### Stage
+https://bip-reference-person.blue-preprod.stage8.bip.va.gov
+https://bip-reference-person.blue-uat.stage8.bip.va.gov
+https://reference-person-ivv.stage8.bip.va.gov
