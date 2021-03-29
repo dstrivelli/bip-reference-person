@@ -6,9 +6,16 @@ metadata:
   annotations:
     github.com/project-slug: dstrivelli/bip-reference-person
     backstage.io/techdocs-ref: url:https://github.com/dstrivelli/bip-reference-person
+tags:
+  - blue
+  - bip
+  - reference
+  - person
+  - archetype
+  - starter
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: production
   owner: "applications"
   providesApis:
     - bip-reference-person-api
